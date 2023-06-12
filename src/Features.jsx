@@ -30,7 +30,7 @@ const Features = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 h-full p-8">
-                <div className="flex justify-center items-center w-3/4 h-auto">
+                <div className="flex justify-center items-center w-full h-full">
                     <img src={Bitcoin} className="md:h-64 w-auto " /><img src={Key} className="md:h-24 w-auto animation-key" />
                     </div>
                 </div>
