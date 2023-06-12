@@ -29,7 +29,7 @@ const Features = () => {
                         <p className='h-1/4'>Take control of your savings by holding the private keys to your stash.</p>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 h-full border-yellow-500 flex flex-col justify-center items-center p-8">
+                <div className="w-full md:w-1/2 h-full p-8">
                 <div className="flex justify-center items-center w-3/4 h-auto">
                     <img src={Bitcoin} className="md:h-64 w-auto " /><img src={Key} className="md:h-24 w-auto animation-key" />
                     </div>
