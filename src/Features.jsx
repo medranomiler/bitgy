@@ -31,7 +31,7 @@ const Features = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-full border-yellow-500 flex flex-col justify-center items-center p-8">
                 <div className="flex justify-center items-center w-3/4 h-auto">
-                    <img src={Bitcoin} className="md:h-64 w-auto " /><img src={Key} className="md:h-24 h-48 w-auto animation-key" />
+                    <img src={Bitcoin} className="md:h-64 w-auto " /><img src={Key} className="md:h-24 w-auto animation-key" />
                     </div>
                 </div>
                 <div className="hidden md:block md:w-1/2 h-3/4 flex flex-col items-center border-blue-400">
