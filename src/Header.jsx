@@ -1,9 +1,10 @@
 import React from 'react'
+import Logo from './assets/logo.svg'
 
 const Header = () => {
   return (
-    <div className='bg-slate-50 py-12 sm:px-12 text-4xl font-bold text-center sm:text-left'>
-        Bitgy Bank
+    <div className="p-4 bg-slate-50 flex justify-center">
+        <img src={Logo} className="max-w-[800px]"/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ const App = () => {
 
   return(
     <>
-      <div className="bg-slate-50 w-auto h-screen py-6 flex justify-center items-center">
+      <div className="bg-slate-50 w-auto py-6 flex justify-center items-center">
         <div className="flex-col justify-center items-center">
           <div className="translate-x-24"><img src={Bitcoin} className="w-16 h-auto animate-bounce" /></div>
           <div className="translate-x-12"><img src={Bitcoin} className="w-16 h-auto animate-bounce" /></div>
