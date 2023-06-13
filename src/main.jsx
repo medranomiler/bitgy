@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Features from './Features.jsx'
+import Signup from './Signup.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <App />
     <Features />
+    <Signup />
     <Footer />
   </React.StrictMode>,
 )
