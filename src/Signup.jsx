@@ -10,8 +10,8 @@ const Signup = () => {
         </div>
         <br/>
         <div className="md:w-1/3 md:mx-8 md:flex md:justify-center md:items-center">
-            <input type="email" placeholder="email" className="p-4 border border-4 border-black rounded-l-full h-16  focus:outline-none"/>
-            <button className="relative -left-2 font-bold text-black p-4 rounded-r-full border border-t-4 border-l-4 border-b-4 border-r-4 border-black bg-slate-50 hover:text-white hover:bg-black">Let's Go!</button>
+            <input type="email" placeholder="email" className="p-2 sm:p-4 border border-2 sm:border-4 border-black rounded-l-full h-16  focus:outline-none"/>
+            <button className="relative -left-2 font-bold text-black p-2 sm:p-4 rounded-r-full border border-2 sm:border-t-4 sm:border-l-4 sm:border-b-4 sm:border-r-4 border-black bg-slate-50 hover:text-white hover:bg-black">Let's Go!</button>
         </div>
     </div>
   )
