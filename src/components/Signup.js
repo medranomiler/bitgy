@@ -26,7 +26,7 @@ const Signup = () => {
         <br/>
             <form className="md:w-1/3 md:mx-8 md:flex md:justify-center md:items-center" onSubmit={handleSubmit}>
               <input type="email" placeholder="email" className="p-2 sm:p-4 border border-2 sm:border-4 border-black rounded-l-full h-11 sm:h-16  focus:outline-none" value={user} onChange={(e) => setUser(e.target.value)}/>
-              <button type="submit" className="relative -left-2 font-bold text-black p-2 sm:p-4 rounded-r-full border border-2 sm:border-t-4 sm:border-l-4 sm:border-b-4 sm:border-r-4 border-black bg-slate-50 hover:text-white hover:bg-black">Let's Go!</button>
+              <button type="submit" className="relative -left-2 font-bold text-black p-2 sm:p-4 rounded-r-full border border-2 sm:border-t-4 sm:border-l-4 sm:border-b-4 sm:border-r-4 border-black bg-slate-50 hover:text-white hover:bg-black">Let&#39;s Go!</button>
             </form>
     </div>
   )
