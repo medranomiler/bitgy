@@ -6,7 +6,7 @@ const Signup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const response = await fetch('api/user', {
+    const response = await fetch('https://bitgy.vercel.app/api/user', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ user })
