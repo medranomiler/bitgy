@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import connectMongo from '../../lib/connectMongo';
-import User from "../../models/User"
+import connectMongo from '../../lib/connectMongo.js'
+import User from "../../models/Users.js"
 
 export default function handler(req, res) {
   switch (req.method){
