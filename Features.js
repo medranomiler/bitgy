@@ -1,8 +1,9 @@
 import React from 'react'
-import Tap from './assets/taptopay.svg'
-import Bitgy from './assets/bitgy.svg'
-import Bitcoin from './assets/bitcoinKeys.svg'
-import Key from './assets/key.svg'
+import Tap from '../assets/taptopay.svg'
+import Bitgy from '../assets/bitgy.svg'
+import Bitcoin from '../assets/bitcoinKeys.svg'
+import Key from '../assets/key.svg'
+import Image from 'next/image'
 
 const Features = () => {
     return (
@@ -21,7 +22,7 @@ const Features = () => {
                 </div>
                 <div className="w-full md:w-1/2 h-full p-8">
                     <div className="flex justify-center items-center w-full h-full">
-                    <img src={Bitgy} className="md:h-48 w-auto translate-x-4 -translate-y-4" /><img src={Tap} className="md:h-48 w-auto animation-tap" />
+                    <Image src={Bitgy} className="md:h-48 w-auto translate-x-4 -translate-y-4" /><Image src={Tap} className="md:h-48 w-auto animation-tap" />
                     </div>
                 </div>
             </div>
@@ -29,7 +30,7 @@ const Features = () => {
             <div className="w-full h-1/2 md:w-3/4 flex flex-col md:flex-row items-center">
                 <div className="w-full md:w-1/2 h-full p-8 order-2 md:order-1">
                 <div className="flex justify-center items-center w-full h-full">
-                    <img src={Bitcoin} className="md:h-48 md:w-auto w-[300px] h-auto -translate-x-8 " /><img src={Key} className="md:h-24 md:w-auto w-64 h-auto z-10" />
+                    <Image src={Bitcoin} className="md:h-48 md:w-auto w-[300px] h-auto -translate-x-8 " /><Image src={Key} className="md:h-24 md:w-auto w-64 h-auto z-10" />
                     </div>
                 </div>
                 <div className="md:block md:w-1/2 h-3/4 flex flex-col items-center border-blue-400">
